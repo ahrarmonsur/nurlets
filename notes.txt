@@ -1,0 +1,20 @@
+GENETICS
+========
+
+Replication
+-----------
+
+Copy over winner
+Clone (25% of previous genomes skewed by fitness)
+Crossover: 75% from picking 2 random genes using fitness skew
+Mutation: 0.1% change of bit flip
+
+Mutation
+--------
+
+Weight Mutation: 80% change to mutate
+    - 90% chanee to mutate in a gaussian around the value
+    - 10% chance to mutate randomly
+Structural Muration
+    - 5% chance to add a new gene (add a connection between two existing nodes)
+    - 3% chance to add a new node (disable connection, create new node, with connection of weight 1 for the 1st connection, and prexisting weight for the 2nd)
