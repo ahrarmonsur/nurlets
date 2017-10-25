@@ -18,3 +18,7 @@ Weight Mutation: 80% change to mutate
 Structural Muration
     - 5% chance to add a new gene (add a connection between two existing nodes)
     - 3% chance to add a new node (disable connection, create new node, with connection of weight 1 for the 1st connection, and prexisting weight for the 2nd)
+
+Resources
+---------
+https://github.com/michael-iuzzolino/FlapPyBio-NEAT
